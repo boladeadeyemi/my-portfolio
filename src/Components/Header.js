@@ -13,7 +13,7 @@ function Header() {
   return (
     <div className = 'bg-white flex justify-between items-center h-20  mx-auto px-1 md:px-8' >
       <div className=' lg:px-40 p-4'><img src={logo} alt="logo" className='h-10 inline'/></div>
-      <div>
+      <div className='pr-8'>
         <ul className='hidden md:flex '>
           <li className='p-4'>ABOUT</li>
           <li className='p-4'>WHAT I DO</li>
