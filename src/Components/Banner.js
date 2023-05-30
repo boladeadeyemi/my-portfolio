@@ -1,4 +1,4 @@
-import { ArrowDownward, FacebookOutlined, GitHub, LinkedIn, Twitter} from '@mui/icons-material'
+import { ArrowDownward, FacebookOutlined, GitHub, LinkedIn, Twitter, YouTube} from '@mui/icons-material'
 import React from 'react'
 import { useTypewriter } from 'react-simple-typewriter'
 
@@ -15,10 +15,11 @@ function Banner() {
         <div className='max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center '>
             <p  className='text-white font-[Poppins] font-bold md:text-8xl sm:text-6xl text-4xl' >{text}</p>
             <div  className=' text-white py-2 flex-row justify-between w-auto'>
-                <FacebookOutlined />
-                <GitHub/>
-                <Twitter/>
-                <LinkedIn/>
+                <a href="https://www.facebook.com/Boleegin" target='_blank'><FacebookOutlined /></a>
+                <a href="https://github.com/boladeadeyemi?tab=repositories" target='_blank'><GitHub/></a>
+                <a href="https://twitter.com/boladeadeyemi" target='_blank'><Twitter/></a>
+                <a href="https://www.linkedin.com/in/bolade-adeyemi-8b254680/" target='_blank'><LinkedIn/></a>
+                <a href="https://www.youtube.com/channel/UC3vQUIV9EOTwD7vARo5ViiA" target='_blank'><YouTube/></a>
             </div>
            
         </div>
