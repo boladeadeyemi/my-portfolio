@@ -22,7 +22,7 @@ function Banner() {
             </div>
            
         </div>
-       <a href="#footer"> <ArrowDownward className='text-white animate-bounce w-6 h-6 mx-[50%]'/></a>
+       <a href="#about"> <ArrowDownward className='text-white animate-bounce w-6 h-6 mx-[50%]'/></a>
     </div>
   )
 }

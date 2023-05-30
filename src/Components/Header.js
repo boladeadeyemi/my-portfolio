@@ -11,25 +11,25 @@ function Header() {
   }
 
   return (
-    <div className = 'bg-white flex justify-between items-center h-20  mx-auto px-1 md:px-8' >
+    <div className = 'bg-white flex justify-between items-center h-20  mx-auto px-1 md:px-8 overflow-x-hidden' >
       <div className=' lg:px-40 p-4'><img src={logo} alt="logo" className='h-10 inline'/></div>
-      <div className='pr-8'>
-        <ul className='hidden md:flex '>
-          <li className='p-4'>ABOUT</li>
-          <li className='p-4'>WHAT I DO</li>
-          <li className='p-4'>WORK</li>
-          <li className='p-4'>CONTACT</li>
+      <div className='pr-10 font-Poppins font-normal'>
+        <ul className='hidden md:flex  '>
+          <a href="#about"><li className='p-4 hover:text-[#49bc56]'>ABOUT</li></a>
+          <a href="#whatIdo"><li className='p-4 hover:text-[#49bc56]'>WHAT I DO</li></a>
+          <a href="#recentWorks"><li className='p-4 hover:text-[#49bc56]'>WORK</li></a>
+          <a href="#contactMe"><li className='p-4 hover:text-[#49bc56]'>CONTACT</li></a>
         </ul>
       </div>
-      <div onClick={handleNav} className='block md:hidden pr-4'>
+      <div onClick={handleNav} className='block md:hidden pr-4 z-[1]'>
         {!nav ? <CloseRounded/> : <MenuRounded/>}
         </div>
-      <div className={!nav ? 'fixed right-0 top-0 h-[70%] w-60 bg-white md:z-auto z-[-1] ease-in-out duration-500' : 'fixed right-[-100%]'}>
-        <ul className='pt-24 '>
-          <li className='p-4'>ABOUT</li>
-          <li className='p-4'>WHAT I DO</li>
-          <li className='p-4'>WORK</li>
-          <li className='p-4'>CONTACT</li>
+      <div className={!nav ? 'fixed right-0 top-0 h-[70%] w-60 bg-white md:z-auto ease-in-out duration-500' : 'fixed right-[-100%]'}>
+        <ul className='pt-24'>
+          <a href="#about"><li className='p-4 hover:text-[#49bc56]'>ABOUT</li></a>
+          <a href="#whatIdo"><li className='p-4 hover:text-[#49bc56]'>WHAT I DO</li></a>
+          <a href="#recentWorks"><li className='p-4 hover:text-[#49bc56]'>WORK</li></a>
+          <a href="#contactMe"><li className='p-4 hover:text-[#49bc56]'>CONTACT</li></a>
         </ul>
       </div>
     </div>

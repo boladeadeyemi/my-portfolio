@@ -10,7 +10,7 @@ function Footer() {
                 <Twitter/>
                 <LinkedIn/>
             </div>
-            <div className='font-Poppins font-light md:text-xs text-xs text-[#999999]'> <Copyright className=''/> Bolade Adeyemi, all rights reserved</div>
+            <div className='font-Poppins font-light md:text-xs text-xs text-[#999999]'> <Copyright className=''/> 2023 Bolade, all rights reserved</div>
     </div>
   )
 }

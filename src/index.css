@@ -8,7 +8,8 @@ body{
   background-color:black ;
   background-image: url(/src/asset/bg2.jpg);
   background-repeat: no-repeat;
-  overflow: auto;
+  background-position: cover no-repeat;
+  overflow-x:hidden ;
   /* font-family: 'Kaushan Script', 'cursive'; */
 }
 
