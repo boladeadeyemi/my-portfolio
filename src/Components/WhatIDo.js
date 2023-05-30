@@ -1,3 +1,4 @@
+import { JoinInnerRounded } from '@mui/icons-material'
 import React from 'react'
 
 function WhatIDo() {
@@ -26,7 +27,7 @@ function WhatIDo() {
             <p className='text-[#999999] font-[Poppins] font-light  mb-4 text-justify'>Python is a versatile and widely-used programming language, that is used for a variety of purposes. I use Python majorly for data science and analysis.</p>
             </div>
             <div className='px-3'>
-            <ion-icon name="analytics-outline"></ion-icon>
+            <JoinInnerRounded/>
             <h1 className='font-[Poppins]'>SQL</h1>
             <p className='text-[#999999] font-[Poppins] font-light mb-4 text-justify'>Structured Query Language is a programming language that I use for managing and manipulating relational databases. I primarily use it for database management, data manipulation, data definition, data control, data analysis and reporting.</p>
             </div>
