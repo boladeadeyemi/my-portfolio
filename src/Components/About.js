@@ -1,5 +1,5 @@
 import React from 'react'
-import Bolade from '../asset/bolade.jpg'
+import Bolade from '../asset/bgin.jpg'
 
 function About() {
   
