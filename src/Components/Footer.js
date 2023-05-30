@@ -4,9 +4,9 @@ import React from 'react'
 function Footer() {
   return (
     <div className='bg-white h-40 text-center justify-center py-24' id='footer'> 
-            <div className='md:mx-auto mx-[35%] my-auto w-[15%] flex flex-row justify-between'>
-                <a href="https://www.facebook.com/Boleegin" target='_blank'><FacebookOutlined /></a>
+            <div className='md:mx-auto mx-[35%] my-auto w-[15%] flex flex-row justify-between mb-4'>
                 <a href="https://github.com/boladeadeyemi?tab=repositories" target='_blank'><GitHub/></a>
+                <a href="https://www.facebook.com/Boleegin" target='_blank'><FacebookOutlined /></a>
                 <a href="https://twitter.com/boladeadeyemi" target='_blank'><Twitter/></a>
                 <a href="https://www.linkedin.com/in/bolade-adeyemi-8b254680/" target='_blank'><LinkedIn/></a>
                 <a href="https://www.youtube.com/channel/UC3vQUIV9EOTwD7vARo5ViiA" target='_blank'><YouTube/></a>
