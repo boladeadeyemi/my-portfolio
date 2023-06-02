@@ -7,7 +7,7 @@ import portfolio from "../asset/portfolio.png";
 function RecentWork() {
   return (
     <div className="w-full bg-white py-16 px-4" id="recentWorks">
-      <p className="md:ml-32 ml-5 font-Kaushan font-bold text-left md:text-3xl sm:text-2xl text-1xl mb-4">
+      <p className="md:ml-32 ml-5 font-Kaushan font-bold text-left md:text-3xl text-xl mb-4">
         Recent Works
       </p>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 md:grid-rows-2">
