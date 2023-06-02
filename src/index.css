@@ -16,3 +16,7 @@ body{
 h1 {
   font-family: 'Kaushan Script', cursive;
 }
+
+ion-icon {
+  color: #49bc56;
+}

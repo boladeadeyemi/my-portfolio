@@ -11,12 +11,12 @@ function RecentWork() {
        <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 md:grid-rows-2'>
             <div className='px-3 rounded-2xl mr-2 mb-2'>
             <a href="https://tekstor-code-nest.vercel.app/"  target='_blank'><img src={tekstor}alt="" className='mb-4' /></a>
-            <h1 className='font-Poppins'>TEKSTOR ECOMMERCE</h1>
+            <h1 className='font-Poppins '>TEKSTOR ECOMMERCE</h1>
             </div>
-            <div className='px-3 rounded-2xl mr-2 mb-2'>
+            {/* <div className='px-3 rounded-2xl mr-2 mb-2'>
             <a href="https://tekstor-code-nest.vercel.app/" target='_blank'><img src={amazon}alt="" className='mb-4 h-[19.5em] mx-auto pt-3' /></a>
             <h1 className='font-Poppins'>AMAZON CLONE</h1>
-            </div>
+            </div> */}
             <div className='px-3 rounded-2xl mb-2'>
             <a href="https://bolade-digital-clock.vercel.app/" target='_blank'><img src={clock}alt="" className='mb-4 h-[19.5em] mx-auto pt-3'/></a>
             <h1 className='font-Poppins'>DIGITAL CLOCK</h1>
