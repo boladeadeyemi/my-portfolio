@@ -34,7 +34,7 @@ function RecentWork() {
           <h1 className="font-Poppins">PORTFOLIO WEBSITE</h1>
         </div>
         <div className="px-3 rounded-2xl mr-2 mb-2">
-          <a href="https://tekstor-code-nest.vercel.app/" target="_blank">
+          <a href="https://amazonclone-delta.vercel.app/" target="_blank">
             <img src={amazon} alt="" className="mb-4 h-[19.1em] mx-auto pt-3" />
           </a>
           <h1 className="font-Poppins">AMAZON CLONE</h1>
