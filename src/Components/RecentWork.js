@@ -3,6 +3,7 @@ import tekstor from "../asset/tekstor.jpg";
 import amazon from "../asset/amazon-clone.png";
 import clock from "../asset/digital-clock.png";
 import portfolio from "../asset/portfolio.png";
+import youtube from "../asset/youtube-clone.png";
 
 function RecentWork() {
   return (
@@ -16,6 +17,16 @@ function RecentWork() {
             <img src={tekstor} alt="" className="mb-4" />
           </a>
           <h1 className="font-Poppins ">TEKSTOR ECOMMERCE</h1>
+        </div>
+        <div className="px-3 rounded-2xl mr-2 mb-2">
+          <a href="https://youtube-clone-one-livid.vercel.app/" target="_blank">
+            <img
+              src={youtube}
+              alt=""
+              className="mb-4 h-[19.1em] mx-auto pt-3"
+            />
+          </a>
+          <h1 className="font-Poppins">YOUTUBE CLONE</h1>
         </div>
         <div className="px-3 rounded-2xl mb-2">
           <a href="https://bolade-digital-clock.vercel.app/" target="_blank">
