@@ -14,8 +14,9 @@ function Contact() {
       // Add any additional logic here (e.g., show success message)
     } catch (error) {
       console.error("Error submitting form:", error);
-      // Add any error handling here (e.g., show error message)
+      // Add any error handling here (e.g., show error message
     }
+    
   };
 
   return (
