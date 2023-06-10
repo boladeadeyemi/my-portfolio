@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <div className="bg-white flex justify-between items-center h-20  mx-auto px-1 md:px-8 sticky top-0">
+    <div className="bg-white flex justify-between items-center h-20  mx-auto px-1 md:px-8">
       <div className=" lg:pl-40 p-6 flex justify-between items-center">
         <img src={logo} alt="logo" className="h-10 inline " />{" "}
         <span className="p-4 font-Kaushan md:text-2xl text-xl font-bold text-[#49bc56]">
