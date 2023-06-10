@@ -39,7 +39,7 @@ function RecentWork() {
         </div>
         <div className="px-3 rounded-2xl mr-2 mb-2">
           <a
-            href="https://youtube-clone-one-livid.vercel.app/"
+            href="https://bolade-gym-exercises.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
