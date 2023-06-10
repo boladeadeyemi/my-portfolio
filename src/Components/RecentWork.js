@@ -4,6 +4,7 @@ import amazon from "../asset/amazon-clone.png";
 import clock from "../asset/digital-clock.png";
 import portfolio from "../asset/portfolio.png";
 import youtube from "../asset/youtube-clone.png";
+import gym from "../asset/gym-exercise.png";
 
 function RecentWork() {
   return (
@@ -35,6 +36,16 @@ function RecentWork() {
             />
           </a>
           <h1 className="font-Poppins">YOUTUBE CLONE</h1>
+        </div>
+        <div className="px-3 rounded-2xl mr-2 mb-2">
+          <a
+            href="https://youtube-clone-one-livid.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={gym} alt="" className="mb-4 h-[19.1em] mx-auto pt-3" />
+          </a>
+          <h1 className="font-Poppins">GYM EXERCISE SITE</h1>
         </div>
         <div className="px-3 rounded-2xl mb-2">
           <a
