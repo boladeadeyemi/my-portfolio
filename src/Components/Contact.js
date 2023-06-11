@@ -10,13 +10,15 @@ function Contact() {
         "https://formspree.io/f/myyaavby",
         new FormData(form)
       );
-      window.alert("Form submitted successfully:", response.data);
+      window.alert(
+        "Your message has been sent, you will be responded to shortly:",
+        response.data
+      );
       // Add any additional logic here (e.g., show success message)
     } catch (error) {
       console.error("Error submitting form:", error);
       // Add any error handling here (e.g., show error message
     }
-    
   };
 
   return (
