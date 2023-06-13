@@ -1,20 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,js}",
-  ],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
-      backgroundImage: {},
-      fontFamily: {
-        Kaushan: ['Kaushan Script', 'cursive'],
-        Poppins:['Poppins', 'sans-serif']
-      }
-
+    backgroundImage: {},
+    fontFamily: {
+      Kaushan: ["Kaushan Script", "cursive"],
+      Poppins: ["Poppins", "sans-serif"],
+    },
   },
   variants: {},
-  plugins: [
-  ],
- 
-}
-
+  plugins: [],
+};
