@@ -20,7 +20,7 @@ function Banner() {
   return (
     <div className="h-full">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
-        <p className="text-white font-[Poppins]-800 font-bold md:text-8xl sm:text-6xl text-4xl">
+        <p className="text-white font-Poppins-800 font-bold md:text-8xl sm:text-6xl text-4xl">
           {text}
         </p>
         <div className=" text-white py-2 flex-row justify-between w-auto ">
