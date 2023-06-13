@@ -4,7 +4,7 @@ import Bolade from "../asset/bgin.jpg";
 function About() {
   // File URL
   const fileUrl =
-    "https://drive.google.com/file/d/1HEC-DQrTUoChCJ49sndjnUZ4j3Nn2pv6/view?usp=sharing";
+    "https://drive.google.com/file/d/1f5QCBWlL2DOjTCvWR6_EMBKJe_q8RotI/view?usp=drive_link";
   const fileName = "Resume.pdf";
 
   const downloadFile = () => {
