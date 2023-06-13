@@ -17,7 +17,7 @@ function Header() {
           Bolade Adeyemi
         </span>
       </div>
-      <div className="pr-10 font-Poppins font-normal">
+      <div className="pr-10 font-Poppins font-medium">
         <ul className="hidden md:flex lg:pr-28">
           <a href="#about">
             <li className="p-4 hover:text-[#49bc56]">ABOUT</li>
