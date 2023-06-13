@@ -24,7 +24,7 @@ function About() {
         <div className="flex flex-col justify-center mx-auto h-96">
           <h1 className="font-Kaushan md:text-4xl sm:text-3xl text-2xl text-black font-bold mb-6 md:mx-0 px-2 text-justify">
             I am Bolade Adeyemi, <br></br>
-            Web Designer & Developer <br />
+            Front-End Developer <br />
             From Lagos State, Nigeria.
           </h1>
           <p className=" md:text-lg sm:text-sm text-[0.8em]  px-2 mb-6 font-Poppins text-[#999999] mx-auto">
