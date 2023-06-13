@@ -13,13 +13,17 @@ function RecentWork() {
         Recent Works
       </p>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 md:grid-rows-2">
-        <div className="px-3 rounded-2xl mr-2 mb-2">
+        <div className="px-3 rounded-2xl mr-2 mb-2 ">
           <a
             href="https://tekstor-code-nest.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={tekstor} alt="" className="mb-4" />
+            <img
+              src={tekstor}
+              alt=""
+              className="mb-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
+            />
           </a>
           <h1 className="font-Poppins ">TEKSTOR ECOMMERCE</h1>
         </div>
@@ -32,7 +36,7 @@ function RecentWork() {
             <img
               src={youtube}
               alt=""
-              className="mb-4 h-[19.1em] mx-auto pt-3"
+              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
             />
           </a>
           <h1 className="font-Poppins">YOUTUBE CLONE</h1>
@@ -43,7 +47,11 @@ function RecentWork() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={gym} alt="" className="mb-4 h-[19.1em] mx-auto pt-3" />
+            <img
+              src={gym}
+              alt=""
+              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
+            />
           </a>
           <h1 className="font-Poppins">GYM EXERCISE SITE</h1>
         </div>
@@ -53,7 +61,11 @@ function RecentWork() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={clock} alt="" className="mb-4 h-[19.1em] mx-auto pt-3" />
+            <img
+              src={clock}
+              alt=""
+              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
+            />
           </a>
           <h1 className="font-Poppins">DIGITAL CLOCK</h1>
         </div>
@@ -66,7 +78,7 @@ function RecentWork() {
             <img
               src={portfolio}
               alt=""
-              className="mb-4 h-[20.4em] mx-auto pt-3 mt-[-19px]"
+              className="mb-4 h-[20.4em] mx-auto pt-3 mt-[-19px] transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
             />
           </a>
           <h1 className="font-Poppins">PORTFOLIO WEBSITE</h1>
@@ -77,7 +89,11 @@ function RecentWork() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={amazon} alt="" className="mb-4 h-[19.1em] mx-auto pt-3" />
+            <img
+              src={amazon}
+              alt=""
+              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
+            />
           </a>
           <h1 className="font-Poppins">AMAZON CLONE</h1>
         </div>
