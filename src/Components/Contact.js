@@ -65,7 +65,7 @@ function Contact() {
         </div>
         <div className="px-1 pb-5 ml-3 py-4">
           <textarea
-            placeholder="Message"
+            placeholder="Message*"
             className="border-b-2 mx-autox w-[95%] py-8 pl-2"
             type="text"
             name="message"
