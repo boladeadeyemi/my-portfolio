@@ -61,4 +61,16 @@ export const skills = [
     title: "DATA-STRUCTURE AND ALGORITHM",
     body: "I use javascript to implement data structure and algorithms. Data structure and algorithms provides a means of representing,manipulating, and organizing data elements in a structured manner. Some common data structures include, array, linked list, stacks, queues, trees, Graphs, Hash Tables etc.",
   },
+  {
+    id: 7,
+    logo: <ion-icon name="logo-nodejs" size="large"></ion-icon>,
+    title: "NODE.JS",
+    body: "I use Node.js to build server-side and networking applications using JavaScript. I use it to install packages on my library and frameworks, and to interact with APIs. Node.js provides a rich ecosystem of libraries and modules, making it a great choice for building command-line tools and utilities.  ",
+  },
+  {
+    id: 7,
+    logo: <ion-icon name="leaf-outline" size="large"></ion-icon>,
+    title: "MONGO DB ATLAS",
+    body: "Mongo DB is  integrated suite of data services centered around a cloud database. I use it to build faster and smarter cloud databases in order to store data sent from the frontend of my application and help solve my data challenges. It helps to accelerate and simplify how I build with data",
+  },
 ];
