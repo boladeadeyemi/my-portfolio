@@ -1,5 +1,5 @@
 import React from "react";
-import { recentworks } from "./data";
+import { recentworks } from "../Informations/data";
 import UnitWorks from "./UnitWorks";
 
 function RecentWork() {
@@ -10,7 +10,7 @@ function RecentWork() {
       </p>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 md:grid-rows-2">
         {recentworks.map((recentWork) => {
-          return <UnitWorks key={recentWork.id} {...recentWork}></UnitWorks>;
+          return <UnitWorks key={recentWork.id} {...recentWork} />;
         })}
       </div>
     </div>
