@@ -1,9 +1,6 @@
 import React from "react";
-import tekstor from "../asset/tekstor.jpg";
-import amazon from "../asset/amazon-clone.png";
-import clock from "../asset/digital-clock.png";
-import youtube from "../asset/youtube-clone.png";
-import gym from "../asset/gym-exercise.png";
+import { recentworks } from "./data";
+import UnitWorks from "./UnitWorks";
 
 function RecentWork() {
   return (
@@ -12,77 +9,9 @@ function RecentWork() {
         Recent Works
       </p>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 md:grid-rows-2">
-        <div className="px-3 rounded-2xl mr-2 mb-2 ">
-          <a
-            href="https://tekstor-code-nest.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={tekstor}
-              alt=""
-              className="mb-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
-            />
-          </a>
-          <h1 className="font-Poppins ">TEKSTOR ECOMMERCE</h1>
-        </div>
-        <div className="px-3 rounded-2xl mr-2 mb-2">
-          <a
-            href="https://youtube-clone-one-livid.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={youtube}
-              alt=""
-              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
-            />
-          </a>
-          <h1 className="font-Poppins">YOUTUBE CLONE</h1>
-        </div>
-        <div className="px-3 rounded-2xl mr-2 mb-2">
-          <a
-            href="https://bolade-gym-exercises.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={gym}
-              alt=""
-              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
-            />
-          </a>
-          <h1 className="font-Poppins">GYM EXERCISE SITE</h1>
-        </div>
-        <div className="px-3 rounded-2xl mb-2">
-          <a
-            href="https://bolade-digital-clock.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={clock}
-              alt=""
-              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
-            />
-          </a>
-          <h1 className="font-Poppins">DIGITAL CLOCK</h1>
-        </div>
-
-        <div className="px-3 rounded-2xl mr-2 mb-2">
-          <a
-            href="https://amazonclone-delta.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={amazon}
-              alt=""
-              className="mb-4 h-[19.1em] mx-auto pt-3 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-90 ..."
-            />
-          </a>
-          <h1 className="font-Poppins">AMAZON CLONE</h1>
-        </div>
+        {recentworks.map((recentWork) => {
+          return <UnitWorks key={recentWork.id} {...recentWork}></UnitWorks>;
+        })}
       </div>
     </div>
   );
